@@ -1,8 +1,8 @@
 import { Component } from 'preact'
 import { create as jssCreate } from 'jss'
-import jssCamelCase from 'jss-camel-case'
-import jssNested from 'jss-nested'
-import jssVendorPrefixer from 'jss-vendor-prefixer'
+import jssCamelCase from 'jss-plugin-camel-case'
+import jssNested from 'jss-plugin-nested'
+import jssVendorPrefixer from 'jss-plugin-vendor-prefixer'
 import jssGlobal from 'jss-plugin-global'
 
 const jss = jssCreate({
